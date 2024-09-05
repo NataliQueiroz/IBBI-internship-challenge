@@ -13,5 +13,29 @@
             <li> <a href="cadastro.html"> Cadastro </a> </li>
         </ul>
     </nav>
+    <form action="/">
+        <div>
+            <label for="username">Nome e sobrenome</label>
+            <input id="username" placeholder="Digite seu nome e sobrenome" type="text">
+        </div>
+        <div>
+            <label for="useremail">Email </label>
+            <input id="useremail" placeholder="Digite seu email" type="email">
+        </div>
+        <div>
+            <label for="userpassword">Senha</label>
+            <input id="userpassword" placeholder="Digite sua senha" type="password">
+        </div>
+        <div>
+            <label for="userstatus">Status</label>
+            <select name="userstatus" id="userstatus"> 
+                <option value="true">Ativo</option>
+                <option value="false">Excluído</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+        </div>
+    </form>
 </body>
 </html>
