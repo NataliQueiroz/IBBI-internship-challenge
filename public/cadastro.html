@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><link rel="stylesheet" href="index.css">
 <head>
+    
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
@@ -14,27 +16,43 @@
         </ul>
     </nav>
     <form id="formUsers"> 
-        <div>
-            <label for="username">Nome e sobrenome</label>
-            <input id="username" placeholder="Digite seu nome e sobrenome" type="text">
+        <div> 
+            <div class="formlabel">
+                 <label for="username">Nome:</label>
+            </div>
+            <div>
+                <input id="username" placeholder="Digite seu nome e sobrenome" type="text">
+            </div>
         </div>
         <div>
-            <label for="useremail">Email </label>
-            <input id="useremail" placeholder="Digite seu email" type="email">
+            <div class="formlabel">
+                <label for="useremail">Email: </label>
+            </div>
+            <div>
+                <input id="useremail" placeholder="Digite seu email" type="email">
+            </div>
         </div>
         <div>
-            <label for="userpassword">Senha</label>
-            <input id="userpassword" placeholder="Digite sua senha" type="password">
+            <div class="formlabel">
+                <label for="userpassword">Senha:</label>
+            </div>
+            <div>
+                <input id="userpassword" placeholder="Digite sua senha" type="password">
+            </div>
         </div>
         <div>
-            <label for="userstatus">Status</label>
-            <select name="userstatus" id="userstatus"> 
-                <option value="true">Ativo</option>
-                <option value="false">Excluído</option>
-            </select>
+            <div class="formlabel">
+                <label for="userstatus">Status:</label>
+            </div>
+            <div>
+                <select name="userstatus" id="userstatus"> 
+                    <option value="true">Ativo</option>
+                    <option value="false">Excluído</option>
+                </select>
+            </div>
         </div>
         <div>
-            <input id="btnsend" type="submit" value="enviar">
+            <input id="btnsend" type="submit" value="Salvar">
         </div>
     </form>
     <script src="cadastro.js"></script>
