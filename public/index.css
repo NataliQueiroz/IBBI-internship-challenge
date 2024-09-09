@@ -74,3 +74,29 @@ form div input[type="submit"]{
 .formlabel{
     width: 50px;
 }
+
+table{
+    width: 60%;
+    max-width: 800px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: aliceblue;
+}
+
+table th, table td{
+    padding: 4px;
+    text-align: center;
+
+}
+
+table th{
+    background-color: #b737c7;
+    color:aliceblue;
+}
+
+h1{
+    text-align: center;
+    color:#ff58bc;
+    font-family: Arial, Helvetica, sans-serif;
+}

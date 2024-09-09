@@ -10,7 +10,16 @@
             row.innerHTML=`
                 <td> ${response.users[index].nome}</td>
                 <td> ${response.users[index].email}</td>
-                <td> <div> <button> editar </button><button> apagar </button></div></td>
+                <td> 
+                  <div>   
+                    <button> 
+                    <img src="asserts/pencil.svg" alt="Caneta">
+                    </button>
+                    <button> 
+                      <img src="asserts/trash.svg" alt="Lixeira">
+                    </button>
+                  </div>
+                </td>
             `
             tableBody.appendChild(row);
            }
