@@ -38,8 +38,7 @@ form{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-form div{
-    margin-bottom: 10px;
+form div div{
     display:flex;
     width: 100%;
     justify-content: space-around;
@@ -99,4 +98,19 @@ h1{
     text-align: center;
     color:#ff58bc;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.mb {
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.error {
+    font-size: 10px;
+    color: crimson;
+    margin-left: 12%;
+}
+
+.btndiv {
+    text-align: center;
 }
