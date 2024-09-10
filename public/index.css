@@ -113,4 +113,26 @@ h1{
 
 .btndiv {
     text-align: center;
+} 
+
+.containerbtn {
+    display: flex;
+    justify-content: center;
+}
+.divbtnNew {
+    width: 80%;
+    max-width: 1000px;
+}
+#btnNew{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:none;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color:#ff58bc;
+    margin: 10px 0 0 0;
+}
+#btnNew a{
+    text-decoration: none;
+    color: black;
 }
